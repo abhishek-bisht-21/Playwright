@@ -24,5 +24,6 @@ test('login test', async () => {
 
 	expect(title).toEqual('My Account');
 
+	await page.waitForTimeout(10000);
 	await browser.close();
 });

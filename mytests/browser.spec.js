@@ -41,6 +41,6 @@ test('login test', async () => {
 
 	await browser.close();
 
-	//await new promiseHooks(() => {}); //prevents your script from exiting!!
+	///await new promiseHooks(() => {}); //prevents your script from exiting!!
 	// await browser.close();
 });
